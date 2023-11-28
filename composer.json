@@ -1,0 +1,34 @@
+{
+    "name": "thiio/kubernetes-api",
+    "description": "Kubernetes library for control resources about the kubernetes kluster",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thiio\\KubernetesApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Thiio\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Francisco Cortes",
+            "email": "fcortes@thiio.com"
+        },
+        {
+            "name": "Carlos Enrique Hoy Chi",
+            "email": "enrique@thiio.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.1@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5@dev",
+        "symfony/dotenv": "6.0.x-dev"
+    }
+}
