@@ -1,5 +1,5 @@
 {
-    "name": "thiio/kubernetes-api",
+    "name": "thiio/kubernetes-php-sdk",
     "description": "Kubernetes library for control resources about the kubernetes kluster",
     "type": "library",
     "license": "MIT",
