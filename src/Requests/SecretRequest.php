@@ -1,11 +1,11 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Requests;
+namespace Thiio\KubernetesApi\Requests;
 
-use WebforceHQ\KubernetesApi\Models\Certificate;
-use WebforceHQ\KubernetesApi\Models\Ingress;
-use WebforceHQ\KubernetesApi\Models\Secret;
-use WebforceHQ\KubernetesApi\Requests\Helpers\KubeResponse;
+use Thiio\KubernetesApi\Models\Certificate;
+use Thiio\KubernetesApi\Models\Ingress;
+use Thiio\KubernetesApi\Models\Secret;
+use Thiio\KubernetesApi\Requests\Helpers\KubeResponse;
 
 class SecretRequest extends KubeRequest
 {

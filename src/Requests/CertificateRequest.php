@@ -1,10 +1,10 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Requests;
+namespace Thiio\KubernetesApi\Requests;
 
-use WebforceHQ\KubernetesApi\Models\Certificate;
-use WebforceHQ\KubernetesApi\Models\Ingress;
-use WebforceHQ\KubernetesApi\Requests\Helpers\KubeResponse;
+use Thiio\KubernetesApi\Models\Certificate;
+use Thiio\KubernetesApi\Models\Ingress;
+use Thiio\KubernetesApi\Requests\Helpers\KubeResponse;
 
 class CertificateRequest extends KubeRequest
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi;
+namespace Thiio\KubernetesApi;
 
-use WebforceHQ\KubernetesApi\Models\Ingress;
+use Thiio\KubernetesApi\Models\Ingress;
 
 abstract class KubernetesResource {
 

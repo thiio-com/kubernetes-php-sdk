@@ -1,12 +1,12 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Requests;
+namespace Thiio\KubernetesApi\Requests;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Exception\ClientException;
-use WebforceHQ\KubernetesApi\Exceptions\UnsetRequestException;
-use WebforceHQ\KubernetesApi\Requests\Helpers\KubeResponse;
+use Thiio\KubernetesApi\Exceptions\UnsetRequestException;
+use Thiio\KubernetesApi\Requests\Helpers\KubeResponse;
 
 class KubeRequest
 {

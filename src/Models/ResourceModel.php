@@ -1,10 +1,10 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Models;
+namespace Thiio\KubernetesApi\Models;
 
 use Exception;
 use JsonSerializable;
-use WebforceHQ\KubernetesApi\Models\Helpers\Metadata;
+use Thiio\KubernetesApi\Models\Helpers\Metadata;
 
 abstract class ResourceModel implements JsonSerializable
 {

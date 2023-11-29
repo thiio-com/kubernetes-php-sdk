@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use WebforceHQ\KubernetesApi\KubernetesApiRequest;
-use WebforceHQ\KubernetesApi\Models\ConfigMap;
-use WebforceHQ\KubernetesApi\Requests\ConfigMapRequest;
+use Thiio\KubernetesApi\KubernetesApiRequest;
+use Thiio\KubernetesApi\Models\ConfigMap;
+use Thiio\KubernetesApi\Requests\ConfigMapRequest;
 
 class ConfigMapRequestTest extends BaseTestCase 
 { 

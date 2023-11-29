@@ -3,8 +3,8 @@
 namespace WebforceHQ\Tests;
 
 use PHPUnit\Framework\TestCase;
-use WebforceHQ\KubernetesApi\KubernetesApiRequest;
-use WebforceHQ\KubernetesApi\Requests\CertificateRequest;
+use Thiio\KubernetesApi\KubernetesApiRequest;
+use Thiio\KubernetesApi\Requests\CertificateRequest;
 use WebforceHQ\Tests\BaseTestCase;
 
 class CertificateRequestTest extends BaseTestCase

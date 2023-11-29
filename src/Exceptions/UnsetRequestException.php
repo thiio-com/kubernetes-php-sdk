@@ -1,6 +1,6 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Exceptions;
+namespace Thiio\KubernetesApi\Exceptions;
 
 use Exception;
 

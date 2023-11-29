@@ -1,6 +1,6 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Requests\Helpers;
+namespace Thiio\KubernetesApi\Requests\Helpers;
 
 class KubeResponse
 {

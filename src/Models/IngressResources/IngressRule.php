@@ -1,8 +1,8 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Models\IngressResources;
+namespace Thiio\KubernetesApi\Models\IngressResources;
 
-use WebforceHQ\KubernetesApi\Models\Helpers\Validations;
+use Thiio\KubernetesApi\Models\Helpers\Validations;
 
 class IngressRule
 {

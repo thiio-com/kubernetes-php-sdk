@@ -1,10 +1,10 @@
 <?php
 
-// namespace WebforceHQ\KubernetesApiTest;
+// namespace Thiio\KubernetesApiTest;
 
 use PHPUnit\Framework\TestCase;
-use WebforceHQ\KubernetesApi\KubernetesApiRequest;
-use WebforceHQ\KubernetesApi\Requests\RawRequest;
+use Thiio\KubernetesApi\KubernetesApiRequest;
+use Thiio\KubernetesApi\Requests\RawRequest;
 
 class RawRequestTest extends BaseTestCase
 {

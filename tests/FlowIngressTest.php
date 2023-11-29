@@ -1,12 +1,12 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use WebforceHQ\KubernetesApi\Example;
-use WebforceHQ\KubernetesApi\KubernetesApiRequest;
-use WebforceHQ\KubernetesApi\Models\Ingress;
-use WebforceHQ\KubernetesApi\Models\IngressResources\IngressRule;
-use WebforceHQ\KubernetesApi\Models\IngressResources\IngressTls;
-use WebforceHQ\KubernetesApi\Requests\CertificateRequest;
+use Thiio\KubernetesApi\Example;
+use Thiio\KubernetesApi\KubernetesApiRequest;
+use Thiio\KubernetesApi\Models\Ingress;
+use Thiio\KubernetesApi\Models\IngressResources\IngressRule;
+use Thiio\KubernetesApi\Models\IngressResources\IngressTls;
+use Thiio\KubernetesApi\Requests\CertificateRequest;
 
 class FlowIngressTest extends BaseTestCase 
 {     

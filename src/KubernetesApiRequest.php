@@ -1,12 +1,12 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi;
+namespace Thiio\KubernetesApi;
 
-use WebforceHQ\KubernetesApi\Requests\CertificateRequest;
-use WebforceHQ\KubernetesApi\Requests\ConfigMapRequest;
-use WebforceHQ\KubernetesApi\Requests\IngressRequest;
-use WebforceHQ\KubernetesApi\Requests\RawRequest;
-use WebforceHQ\KubernetesApi\Requests\SecretRequest;
+use Thiio\KubernetesApi\Requests\CertificateRequest;
+use Thiio\KubernetesApi\Requests\ConfigMapRequest;
+use Thiio\KubernetesApi\Requests\IngressRequest;
+use Thiio\KubernetesApi\Requests\RawRequest;
+use Thiio\KubernetesApi\Requests\SecretRequest;
 
 class KubernetesApiRequest
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Models;
+namespace Thiio\KubernetesApi\Models;
 
-use WebforceHQ\KubernetesApi\Models\Helpers\Validations;
-use WebforceHQ\KubernetesApi\Models\ResourceModel;
+use Thiio\KubernetesApi\Models\Helpers\Validations;
+use Thiio\KubernetesApi\Models\ResourceModel;
 
 class ConfigMap extends ResourceModel
 {

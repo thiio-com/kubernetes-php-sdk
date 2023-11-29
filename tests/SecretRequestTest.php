@@ -1,9 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use WebforceHQ\KubernetesApi\KubernetesApiRequest;
-use WebforceHQ\KubernetesApi\Models\Secret;
-use WebforceHQ\KubernetesApi\Requests\SecretRequest;
+use Thiio\KubernetesApi\KubernetesApiRequest;
+use Thiio\KubernetesApi\Models\Secret;
+use Thiio\KubernetesApi\Requests\SecretRequest;
 
 class SecretRequestTest extends BaseTestCase 
 {     

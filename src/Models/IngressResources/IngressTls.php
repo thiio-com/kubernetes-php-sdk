@@ -1,6 +1,6 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Models\IngressResources;
+namespace Thiio\KubernetesApi\Models\IngressResources;
 
 class IngressTls
 {

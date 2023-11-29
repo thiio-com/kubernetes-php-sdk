@@ -1,11 +1,11 @@
 <?php
 
-namespace WebforceHQ\KubernetesApi\Models;
+namespace Thiio\KubernetesApi\Models;
 
-use WebforceHQ\KubernetesApi\Models\Helpers\Validations;
-use WebforceHQ\KubernetesApi\Models\IngressResources\IngressRule;
-use WebforceHQ\KubernetesApi\Models\IngressResources\IngressTls;
-use WebforceHQ\KubernetesApi\Models\ResourceModel;
+use Thiio\KubernetesApi\Models\Helpers\Validations;
+use Thiio\KubernetesApi\Models\IngressResources\IngressRule;
+use Thiio\KubernetesApi\Models\IngressResources\IngressTls;
+use Thiio\KubernetesApi\Models\ResourceModel;
 
 class Ingress extends ResourceModel
 {
