@@ -51,4 +51,8 @@ class Ingress extends ResourceModel
     {
         return $this;
     }
+    public function testfunction()
+    {
+        return $this;
+    }
 }
